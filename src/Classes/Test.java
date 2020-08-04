@@ -16,7 +16,7 @@ public class Test {
         return Owner;
     }
 
-    public void setOwner(int owner) {
+    public void setOwner(String owner) {
         Owner = owner;
     }
 
