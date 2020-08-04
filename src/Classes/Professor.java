@@ -1,18 +1,18 @@
 package Classes;
 
-public class Proffessor {
+public class Professor {
     private String Name;
     private int ID;
 
-    public Proffessor(){
+    public Professor(){
         
     }
 
-    public Proffessor(String name){
+    public Professor(String name){
         this.Name = name;
     }
 
-    public Proffessor(Proffessor p){
+    public Professor(Professor p){
         this.Name = p.Name;
         this.ID = p.ID;
     }
