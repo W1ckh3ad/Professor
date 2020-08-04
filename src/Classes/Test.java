@@ -25,8 +25,8 @@ public class Test {
         return "Test [ID=" + ID + ", Owner=" + Owner + "]";
     }
 
-    public Test(int iD, String owner) {
-        ID = iD;
+    public Test(int id, String owner) {
+        ID = id;
         Owner = owner;
     }
 
